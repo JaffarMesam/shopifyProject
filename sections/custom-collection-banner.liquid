@@ -1,0 +1,11 @@
+{% if collection.image %}
+<div class="collection-banner">
+  <img src="{{ collection.image | image_url }}">
+</div>
+<style>
+  .collection-banner img{
+    width:100%;
+    height:370px;
+  }
+</style>
+{% endif %}

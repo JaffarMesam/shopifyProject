@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "86350dca-bdc3-46bf-8408-dd36a68c3975": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner,.banner--small {height: 370px; min-height: 370px; max-height: 370px;}",
+        ".banner__media {border-radius: 0;}"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "9c64a977-ec2a-4316-a5a5-07019b0da6a8": {
+      "type": "rich-text",
+      "blocks": {
+        "b070f31b-5262-4056-8130-e93d72b91db7": {
+          "type": "caption",
+          "settings": {
+            "caption": "About",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "d0cc0b66-5223-409f-b8ec-118635a09ae3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Title copy goes here<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "ea40fc2f-c8ad-4148-99dc-12aaff8dbfb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b070f31b-5262-4056-8130-e93d72b91db7",
+        "d0cc0b66-5223-409f-b8ec-118635a09ae3",
+        "ea40fc2f-c8ad-4148-99dc-12aaff8dbfb8"
+      ],
+      "custom_css": [
+        ".rich-text__text {text-align: left;}",
+        "@media (max-width: 749px) {.rich-text__wrapper {padding-right: 0; padding-left: 0; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "14880d2d-fdfa-46a3-ac43-8ed006a0a03a": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: calc(1100px - 24px); margin: 0 auto;}",
+        "@media (max-width: 1164px) {.banner {margin: 0 6.4rem; }}",
+        ".banner__media {border-radius: 30px !important;}",
+        ".banner,.banner--small,.banner__media {height: 200px; min-height: 200px; max-height: 200px;}",
+        "@media (max-width: 989px) {.banner {margin: 0 3.2rem; }}",
+        "@media (max-width: 749px) {.banner, .banner--small, .banner__media {height: 400px; min-height: 400px; max-height: 400px; } .banner {margin: 0 1.6rem; }}"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "aedbeefc-f146-46aa-bb7b-da2fa822af55": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20553948561681__aedbeefc-f146-46aa-bb7b-da2fa822af55-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--20553948561681__aedbeefc-f146-46aa-bb7b-da2fa822af55-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20553948561681__aedbeefc-f146-46aa-bb7b-da2fa822af55-heading-1",
+        "template--20553948561681__aedbeefc-f146-46aa-bb7b-da2fa822af55-text-1"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-weight: 900; font-size: 46px; line-height: 56px;}",
+        ".image-with-text__text {font-weight: 400; font-size: 18px; line-height: 26px;}",
+        ".button_container .button {margin: 20px 15px 0 0 !important;}",
+        ".image-with-text__media {border-radius: 3rem !important;}",
+        "@media (max-width: 749px) {.content-container {padding-right: 0; padding-left: 0; } , .image-with-text__heading {font-size: 42px; }}"
+      ],
+      "settings": {
+        "class": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "86350dca-bdc3-46bf-8408-dd36a68c3975",
+    "9c64a977-ec2a-4316-a5a5-07019b0da6a8",
+    "main",
+    "14880d2d-fdfa-46a3-ac43-8ed006a0a03a",
+    "aedbeefc-f146-46aa-bb7b-da2fa822af55"
+  ]
+}

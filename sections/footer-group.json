@@ -1,0 +1,73 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "7d96b0ad-6f5a-4116-9d48-7a3df46c3103": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logowhite_digital.png",
+            "image_width": 150,
+            "alignment": ""
+          }
+        },
+        "813cd894-3082-428d-85de-db451c346651": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "09f0382b-9774-400d-954d-40a81fcc2142": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "885c1301-69f0-4477-bb45-36443b424e67": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "7d96b0ad-6f5a-4116-9d48-7a3df46c3103",
+        "813cd894-3082-428d-85de-db451c346651",
+        "09f0382b-9774-400d-954d-40a81fcc2142",
+        "885c1301-69f0-4477-bb45-36443b424e67"
+      ],
+      "custom_css": [
+        ".footer-block__heading {text-align: left;}",
+        ".link {font-size: 16px;}",
+        ".field {flex-direction: column; margin-bottom: 4.5rem;}",
+        ".newsletter-form__button {width: fit-content; border: 2px solid white; border-radius: 8px; padding: 12px 22px; position: relative; transition: all .1s ease;}",
+        ".newsletter-form__button:hover {background: #fff; color: #395f0a;}",
+        ".newsletter-form__field-wrapper .field__input {border-bottom: 1px solid white; margin-bottom: 3rem;}",
+        ".footer__list-social {justify-content: flex-start;}"
+      ],
+      "settings": {
+        "copy": "NaturalliFresh is a subsidiary of Endory LLC © 2023 Endory LLC All rights reserved",
+        "color_scheme": "scheme-da5610a0-089b-4af8-b3cb-9e4880cc0f5a",
+        "newsletter_enable": true,
+        "newsletter_heading": "RECEIVE DEALS, UPDATES & MORE",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

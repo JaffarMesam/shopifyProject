@@ -1,0 +1,187 @@
+<div class="main-social">
+  <div class="page-width">
+    <div class="heading-social">
+      <h2>{{ section.settings.title }}</h2>
+      <h2>{{ section.settings.title2 }}</h2>
+    </div>
+
+    <div class="social-grid">
+      <div class="insta">
+        <h3>Instagram</h3>
+        <div class="insta-inner">
+          {% for block in section.blocks %}
+            <div class="insta1">
+              <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="img-responsive">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="tik_tok">
+        <h3>TikTok</h3>
+        <div class="tiktok-inner">
+          <div class="insta1">
+            <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="" class="img-responsive">
+          </div>
+          <div class="insta1">
+            <img src="{{ section.settings.image2 | img_url: 'master' }}" alt="" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%- style -%}
+  .insta1 img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .social-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .insta {
+    width: 48%;
+  }
+
+  .tik_tok {
+    width: 48%;
+  }
+
+  .insta-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .insta1 {
+    width: 46%;
+    margin-bottom: 40px;
+  }
+
+  .social-grid h3 {
+    font-size: 18px;
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+  }
+  .heading-social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .heading-social h2 {
+    font-weight: 600 !important;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .tiktok-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .tiktok-inner img {
+    border-radius: 10px;
+  }
+  .shopify-section-group-footer-group {
+    margin-top: 30px;
+  }
+  .tiktok-inner img {
+    display: block;
+    width: 100%;
+    height: 560px !important;
+    object-fit: cover;
+  }
+  @media only screen and(max-width:989px) {
+    .button_new .button {
+      margin: 10px 0px 0 0 !important;
+    }
+    .insta1 img {
+      height: 200px;
+    }
+    .insta1 {
+      margin-bottom: 30px;
+    }
+    .tiktok-inner img {
+      height: 430px !important;
+    }
+    .multicolumn-list__item {
+      width: 32% !important;
+      max-width: 33% !important;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .insta,
+    .tik_tok {
+      width: 100%;
+    }
+  }
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "Social Collage",
+  "class": "social",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading 1",
+      "default": "Logo list"
+    },
+     {
+      "type": "text",
+      "id": "title2",
+      "label": "Heading 2",
+      "default": "Logo list"
+    },
+     {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "TikTok Image 1",
+          "info": "400 x 300px recommended"
+        },
+     {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "TikTok Image 2",
+          "info": "400 x 300px recommended"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "image-text",
+      "name": "Insta Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "400 x 300px recommended"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social Collage",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "image-text"
+        }
+
+      ]
+    }
+  ]
+}
+{% endschema %}

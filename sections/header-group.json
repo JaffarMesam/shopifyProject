@@ -1,0 +1,60 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "c3eae9e3-5ac2-49ae-b535-dbf8016a1b21": {
+      "type": "announcement-bar",
+      "blocks": {
+        "sections--20299145904401__c3eae9e3-5ac2-49ae-b535-dbf8016a1b21-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING ON ORDERS $75+",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--20299145904401__c3eae9e3-5ac2-49ae-b535-dbf8016a1b21-announcement-1"
+      ],
+      "custom_css": [
+        "span {font-weight: 900; font-size: 16px; line-height: 24px; letter-spacing: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".list-menu__item {font-weight: 600 !important; font-size: 16px; color: #000; font-style: normal;}",
+        ".list-menu__item ul {gap: 12px;}",
+        "@media screen and (min-width: 990px) {.header--middle-left {grid-template-columns: 1fr !important; }}"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "menu_color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "c3eae9e3-5ac2-49ae-b535-dbf8016a1b21",
+    "header"
+  ]
+}

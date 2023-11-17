@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "65b178eb-1e5d-4643-8510-ef0628514d45": {
+      "type": "custom-collection-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero__title {font-size: 40px; font-weight: 900; line-height: 48px; letter-spacing: 0em; color: #212121;}",
+        ".collection-hero__description {font-size: 18px; font-weight: 400; line-height: 27px; letter-spacing: 0em; color: #212121;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card__media {border-radius: 2rem !important;}",
+        ".button {max-width: 155px !important;}",
+        ".grid__item {max-width: calc(25% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px);}",
+        "@media (max-width: 989px) {.grid__item {max-width: calc(33% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px); }}",
+        "@media (max-width: 749px) {.grid__item {max-width: calc(50% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px); }}",
+        ".grid {row-gap: 2rem; column-gap: 12px;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "65b178eb-1e5d-4643-8510-ef0628514d45",
+    "banner",
+    "product-grid"
+  ]
+}

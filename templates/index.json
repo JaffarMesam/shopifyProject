@@ -1,0 +1,327 @@
+{
+  "sections": {
+    "86fb7168-45bf-483c-aaab-0261fa2c7a3b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20299145511185__86fb7168-45bf-483c-aaab-0261fa2c7a3b-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png",
+            "heading": "<strong>Slide 1<\/strong>",
+            "heading_size": "h1",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+            "button_label": "FIND YOUR SCENT",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "template--20299145511185__86fb7168-45bf-483c-aaab-0261fa2c7a3b-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png",
+            "heading": "<strong>Slide 2<\/strong>",
+            "heading_size": "h1",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+            "button_label": "FIND YOUR SCENT",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "ca405a01-5d21-4832-a9a8-2983f85c897d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png",
+            "heading": "<strong>Slide 3<\/strong>",
+            "heading_size": "h1",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+            "button_label": "FIND YOUR SCENT",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20299145511185__86fb7168-45bf-483c-aaab-0261fa2c7a3b-slide-1",
+        "template--20299145511185__86fb7168-45bf-483c-aaab-0261fa2c7a3b-slide-2",
+        "ca405a01-5d21-4832-a9a8-2983f85c897d"
+      ],
+      "custom_css": [
+        ".banner__media {border-radius: 0px;}",
+        ".banner__heading {font-weight: 900; color: #ffffff;}",
+        ".banner__text {font-weight: 400; font-size: 18px; line-height: 26px; color: #ffffff;}",
+        ".banner__buttons {font-size: 16px; font-weight: 900; line-height: 23px; color: #ffffff;}",
+        ".banner__buttons a {padding: 0px 1rem;}",
+        ".slider-button {display: none;}",
+        "@media (max-width: 576px) {.banner__box {padding: 2rem 1.6rem 4.6rem; }}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20299145511185__7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "template--20299145511185__7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "4fe862ee-334c-440a-9535-6958324a5566": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "e66f86f3-07c3-43ac-ae0b-5a0cff70d074": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "07e62373-f4b3-4803-9bfa-4b4befb427e8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "c04e0e69-e0d3-4cc7-8349-225df953fcd6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "template--20299145511185__7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef-featured_collection-1",
+        "template--20299145511185__7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef-featured_collection-3",
+        "4fe862ee-334c-440a-9535-6958324a5566",
+        "e66f86f3-07c3-43ac-ae0b-5a0cff70d074",
+        "07e62373-f4b3-4803-9bfa-4b4befb427e8",
+        "c04e0e69-e0d3-4cc7-8349-225df953fcd6"
+      ],
+      "custom_css": [
+        ".card__heading {text-align: center; margin-top: 10px; font-size: 18px; line-height: 26px; font-weight: bold; letter-spacing: 0;}",
+        ".card__heading span {display: none;}",
+        ".collection-list-view-all a {font-weight: 16px; font-weight: 900;}",
+        "@media (max-width: 989px) {.button {font-size: 15px; padding: 6px 30px; } .grid__item {width: calc((50% - var(--grid-desktop-horizontal-spacing) \/ 2) \/ 2); }}",
+        "@media (max-width: 749px) {.grid__item {width: calc(50% - var(--grid-desktop-horizontal-spacing) \/ 2); }}"
+      ],
+      "settings": {
+        "title": "Shop by scent",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "378c770f-e5c3-4790-a97b-64d3b3d1f906": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Title copy goes here<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Primary",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label1": "Secondary",
+            "button_link1": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-heading-1",
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-text-1",
+        "template--20299145511185__378c770f-e5c3-4790-a97b-64d3b3d1f906-button-1"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-weight: 900; line-height: 56px;}",
+        ".image-with-text__text {font-weight: 400; font-size: 18px; line-height: 26px;}",
+        ".button {margin: 0 15px 0 0 !important; font-weight: 900; text-transform: uppercase;}",
+        "@media (max-width: 989px) {.button {font-size: 16px; padding: 13px 33px; }}",
+        ".image-with-text__media-item {flex-grow: 3;}",
+        ".image-with-text__text-item {flex-grow: 6;}",
+        "@media (max-width: 749px) {.content-container {padding-right: 0; padding-left: 0; }}",
+        ".image-with-text__media {border-radius: 3rem !important;}"
+      ],
+      "settings": {
+        "class": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "6e1a0230-7401-4031-bcbf-2e4a0addd0b6": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1100px; margin: 0 auto;}",
+        "@media (max-width: 1164px) {.banner {margin: 0 50px; }}",
+        "@media (max-width: 989px) {.banner {margin: 0 32px; }}",
+        "@media (max-width: 749px) {.banner {margin: 0 16px; }}",
+        ".banner__media {border-radius: 30px !important;}"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "056c9f5e-1935-497d-81fb-d49abef54c14": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".price__container {font-weight: bold !important; font-size: 18px;}",
+        ".card__media {border-radius: 3rem !important;}",
+        ".grid__item {max-width: calc(25% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px);}",
+        "@media (max-width: 989px) {.button {font-size: 16px; padding: 12px 22px; max-width: fit-content !important; } .grid__item {max-width: calc(33% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px); }}",
+        "@media (max-width: 749px) {.grid__item {max-width: calc(50% - var(--grid-desktop-horizontal-spacing) \/ 2 - 6px); }}",
+        ".grid {row-gap: 2rem; column-gap: 12px;}"
+      ],
+      "settings": {
+        "title": "<strong>Recently viewed<\/strong>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-7fe3634b-86d9-48cf-8f48-d773db51ecd0",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "360bb45f-09cc-4efc-9ba4-c67ddd63f4c2": {
+      "type": "social",
+      "blocks": {
+        "template--20299145511185__360bb45f-09cc-4efc-9ba4-c67ddd63f4c2-image-text-1": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png"
+          }
+        },
+        "a4987930-e1aa-4085-8101-102545c7b6ba": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png"
+          }
+        },
+        "9261788c-4471-4e31-9129-c20cff63365b": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png"
+          }
+        },
+        "c3232606-72cd-4f04-a529-3eb39ecfc986": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_blackground.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--20299145511185__360bb45f-09cc-4efc-9ba4-c67ddd63f4c2-image-text-1",
+        "a4987930-e1aa-4085-8101-102545c7b6ba",
+        "9261788c-4471-4e31-9129-c20cff63365b",
+        "c3232606-72cd-4f04-a529-3eb39ecfc986"
+      ],
+      "custom_css": [
+        ".insta1 img {border-radius: 3rem;}",
+        "@media only screen and (min-width: 750px) {h2 {font-size: calc(var(--font-heading-scale) * 4.6rem); }}",
+        "@media (max-width: 989px) {h2 {font-size: calc(var(--font-heading-scale) * 4rem); } .insta .insta1 {margin-bottom: 32px; } .insta .insta1 img {height: 164.05063px; } .tik_tok .insta1 img {height: 360.91138px !important; }}",
+        "@media (max-width: 749px) {h2 {font-size: calc(var(--font-heading-scale) * 3.2rem); }}"
+      ],
+      "settings": {
+        "title": "Get social with us",
+        "title2": "@naturallifresh",
+        "image1": "shopify:\/\/shop_images\/black_blackground.png",
+        "image2": "shopify:\/\/shop_images\/black_blackground.png"
+      }
+    }
+  },
+  "order": [
+    "86fb7168-45bf-483c-aaab-0261fa2c7a3b",
+    "7ba14df4-ad0f-42a0-8705-77f7dc6ff9ef",
+    "378c770f-e5c3-4790-a97b-64d3b3d1f906",
+    "6e1a0230-7401-4031-bcbf-2e4a0addd0b6",
+    "056c9f5e-1935-497d-81fb-d49abef54c14",
+    "360bb45f-09cc-4efc-9ba4-c67ddd63f4c2"
+  ]
+}
